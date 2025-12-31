@@ -41,7 +41,7 @@ const Header = () => {
 
           {/* Navigation - Desktop */}
           <nav className="hidden lg:flex items-center gap-8">
-            {["Novidades", "Vestidos", "Tops", "Acessórios"].map((item) => (
+            {["Camisetas", "Sobre", "Contato"].map((item) => (
               <a 
                 key={item}
                 href="#" 
@@ -99,7 +99,7 @@ const Header = () => {
         {isMobileMenuOpen && (
           <nav className="lg:hidden mt-6 pb-4 border-t border-border/20 pt-6 animate-fade-in">
             <div className="flex flex-col gap-4">
-              {["Novidades", "Vestidos", "Tops", "Acessórios"].map((item) => (
+              {["Camisetas", "Sobre", "Contato"].map((item) => (
                 <a 
                   key={item}
                   href="#" 
