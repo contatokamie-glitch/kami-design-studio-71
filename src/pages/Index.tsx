@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import BrandStorySection from "@/components/BrandStorySection";
 import CategoriesSection from "@/components/CategoriesSection";
 import ValuePropsSection from "@/components/ValuePropsSection";
 import HighlightSection from "@/components/HighlightSection";
@@ -11,9 +12,10 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <BrandStorySection />
+        <HighlightSection />
         <CategoriesSection />
         <ValuePropsSection />
-        <HighlightSection />
       </main>
       <Footer />
     </div>

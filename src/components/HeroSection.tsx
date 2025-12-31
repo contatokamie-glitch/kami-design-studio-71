@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-kamie.jpg";
+import heroImage from "@/assets/hero-kamie-nordeste.jpg";
 
 const HeroSection = () => {
   return (
@@ -17,19 +17,19 @@ const HeroSection = () => {
       <div className="relative z-10 container-section text-center max-w-4xl">
         <div className="opacity-0 animate-fade-up">
           <h1 className="heading-display text-stone-50 mb-6 drop-shadow-lg">
-            Essência Natural, Elegância Atemporal
+            Mais que Roupa.<br />É Raiz, Dendê e Poesia.
           </h1>
         </div>
         
         <div className="opacity-0 animate-fade-up stagger-2">
           <p className="body-large text-stone-100 mb-10 max-w-2xl mx-auto drop-shadow-md">
-            Descubra a nova coleção da Kamiê, feita para quem veste conforto sem abrir mão do estilo.
+            A Kamiê nasce do desejo de vestir o que o Nordeste tem de mais bonito: sua essência.
           </p>
         </div>
         
         <div className="opacity-0 animate-fade-up stagger-3">
           <Button variant="hero" size="xl">
-            Ver Nova Coleção
+            Conhecer a Coleção
           </Button>
         </div>
       </div>
