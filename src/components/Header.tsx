@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ShoppingBag, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
+import logoKamie from "@/assets/logo-kamie.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -59,12 +60,16 @@ const Header = () => {
           {/* Logo */}
           <a 
             href="/" 
-            className={cn(
-              "font-heading text-2xl md:text-3xl font-medium tracking-tight absolute left-1/2 -translate-x-1/2",
-              isScrolled ? "text-foreground" : "text-stone-50"
-            )}
+            className="absolute left-1/2 -translate-x-1/2"
           >
-            Kamiê
+            <img 
+              src={logoKamie} 
+              alt="Kamiê" 
+              className={cn(
+                "h-8 md:h-10 w-auto transition-all duration-300",
+                isScrolled ? "brightness-0" : "brightness-100"
+              )}
+            />
           </a>
 
           {/* Right Actions */}

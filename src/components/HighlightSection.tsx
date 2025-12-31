@@ -18,17 +18,19 @@ const HighlightSection = () => {
         <div className="flex items-center justify-center p-12 lg:p-20 bg-stone-100 opacity-0 animate-fade-up stagger-2">
           <div className="max-w-md">
             <span className="font-body text-xs uppercase tracking-widest text-terracotta mb-4 block">
-              Exclusivo
+              Nossa Essência
             </span>
             <h2 className="heading-section text-foreground mb-6">
-              A Peça da Estação
+              Cultura que se Veste
             </h2>
             <p className="body-base text-muted-foreground mb-8 leading-relaxed">
-              Conheça o lançamento exclusivo que vai transformar o seu guarda-roupa. 
-              Versatilidade do trabalho ao happy hour.
+              Nossas estampas traduzem o cordel, o litoral, o sertão, a gíria e o ritmo do povo nordestino em traços modernos, cheios de personalidade.
+            </p>
+            <p className="body-base text-muted-foreground mb-8 leading-relaxed">
+              Cada camiseta une conforto premium com identidade cultural — para quem não abre mão de suas raízes, mesmo longe de casa.
             </p>
             <Button variant="terracotta" size="lg">
-              Comprar Agora
+              Ver Coleção
             </Button>
           </div>
         </div>
